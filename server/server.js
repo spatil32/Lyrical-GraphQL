@@ -4,6 +4,7 @@ const expressGraphQL = require("express-graphql");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const schema = require("./schema/schema");
+const path = require('path');
 
 const app = express();
 
