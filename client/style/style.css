@@ -12,3 +12,24 @@
 .input {
 	width: 50% !important;
 }
+
+.lyrics {
+	display: flex;
+	vertical-align: middle;
+	justify-content: space-between;
+}
+
+.lyrics-vote {
+	display: flex;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.vote-hand {
+	padding-left: 10px;
+	margin-right: 20px;
+}
+
+.material-icons:hover {
+	color: cornflowerblue;
+}
